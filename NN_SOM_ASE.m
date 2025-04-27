@@ -43,7 +43,7 @@ numPopulations= 100; % number of populations for each test
 dimension1 = 10; % First dimension for the SOM
 dimension2 = 10; % Second dimension for the SOM
 numNeurons= dimension1*dimension2;
-numNetworks= 1; % number of different networks
+numNetworks= 15; % number of different networks
 % Stats across networks (same number of deleted alleles)
 sqiStats= zeros(numNetworks,4); % min, mean, max SQI (+ standard dev) for each population of the repeat
 sqiStats_corr= zeros(numNetworks,4); % min, mean, max SQI (+ st. dev) for each corr. pop. of the rep.
@@ -64,7 +64,7 @@ finalReadAccStats= zeros(11,4);
 
 finalGuessedOnce= zeros(11,1);
 
-for num_del= 0:2:4 % test the networks deleting a varying number of alleles
+for num_del= 0:2:18 % test the networks deleting a varying number of alleles
     guessedOnceNet= zeros(numNetworks,1); % (ntw) = fraction of populations where at least one allele was guessed by network ntw
     for netw=1:numNetworks % repeat the experiment w/ same parameters, but w/ different training-test sets (to account for training randomness)
         
