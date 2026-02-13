@@ -47,6 +47,12 @@ Reference paper for details on the spectral representation of ASE data and the 2
 [Pagliarini R, Francesco N, Policriti A.] *A two-phase clustering procedure based on allele specific expression.*
 BMC Bioinformatics (2026). doi:Toappear.
 
+The grapevine dataset was obtained from:
+[Magris, Gabriele and Jurman, Irena and Fornasiero, Alice and Paparelli, Eleonora and Schwope, Rachel
+and Marroni, Fabio and Di Gaspero, Gabriele and Morgante, Michele] *The genomes of 204 vitis vinifera
+accessions reveal the origin of european wine grapes.* Nat Commun 12 (2021) 7240. doi:10.1038/s41467-021-27487-y.
+
+
 The software code related to the ASE synthetic generator, used to extended the original grapevine population, is available at the following URL:
 https://github.com/RobertoPagliarini/ASESyntheticGenerator.git
 
@@ -55,9 +61,5 @@ Run the main programs to repeat the experiments described in the reference paper
 All additional function files (e.g. FMI) are required for the computation of quality indexes, etc.
 Relevant output variables/vectors are clearly specified at the end of each main program.
 
-The grapevine dataset was obtained from:
-[Magris, Gabriele and Jurman, Irena and Fornasiero, Alice and Paparelli, Eleonora and Schwope, Rachel
-and Marroni, Fabio and Di Gaspero, Gabriele and Morgante, Michele] *The genomes of 204 vitis vinifera
-accessions reveal the origin of european wine grapes.* Nat Commun 12 (2021) 7240. doi:10.1038/s41467-021-27487-y.
 
 
