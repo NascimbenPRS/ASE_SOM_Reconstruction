@@ -1,5 +1,6 @@
 # ASE_SOM_Reconstruction
 A two-phase procedure for recovering missing ASE data from RNA-seq experiments.
+
 Reference paper: *Self-Organizing Maps for Allele Specific
 Expression Data Reconstruction and
 Identification of Anomalous Genomic Regions*
